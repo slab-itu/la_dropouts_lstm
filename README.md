@@ -316,6 +316,8 @@ model.save('10(new)-weeksModel-WithPass.h5')
 
 
 =====================================Data=====================================
+
+
 week_id	final_result	DataPlus	DualPane	ExternalQuiz	Folder	Forumng	Glossary	Homepage	HtmlActivity	OuCollaborate	Oucontent	OuElluminate	OuWiki	Page	Questionnaire	Quiz	RepeatActivity	Resource	SharedSubpage	SubPage	Url	id1
 1	Pass	0	0	0	0	109	0	39	0	0	27	0	1	3	0	2	0	2	0	22	8	0
 2	Pass	0	0	0	0	20	0	12	0	0	5	0	0	0	0	0	0	2	0	8	7	0
