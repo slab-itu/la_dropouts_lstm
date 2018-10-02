@@ -16,7 +16,7 @@ df1=pd.read_csv('38Weeks-WithPass-Data.csv', low_memory=False)
 df1=df1.sort_values(by=['id1','week_id'])
 
 
-### factorizing the final result....pass=0, fail=1
+###### factorizing the final result....pass=0, fail=1
 d=[ 'final_result']
 
 for val in d:
@@ -82,7 +82,7 @@ df1=df1.drop(['final_result'], axis=1)
 
 
 #fr each unique id, it will create dataframes, 
-# appending 0-37 rows for each unique id 
+#### appending 0-37 rows for each unique id 
 dfnew=pd.DataFrame({})
 for num in df1['id1'].unique():    
     t=make_frames1(df1[df1['id1']==num])#make frame fr each unique id
@@ -111,7 +111,7 @@ y_test=df_label.iloc[180000:,]
 
 
 
-# In[111]:
+##### In[111]:
 
 
 print(type(X_train))
@@ -242,7 +242,7 @@ def f1(y_true, y_pred):
 
 
 
-# record history of training
+###### record history of training
 class LossHistory(keras.callbacks.Callback):
     def on_train_begin(self, logs={}):
         self.losses = []
